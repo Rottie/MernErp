@@ -1,0 +1,13 @@
+.home {
+  display: flex;
+
+  .homeContainer {
+    flex: 6;
+
+    .unrelease {
+      display: block;
+      padding-top: 100px;
+      margin: auto;
+    }
+  }
+}

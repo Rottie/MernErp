@@ -1,0 +1,13 @@
+.list {
+  display: flex;
+  width: 100%;
+
+  .userContainer {
+    flex: 6;
+
+    .user {
+      margin: 50px;
+      padding: 10px;
+    }
+  }
+}
