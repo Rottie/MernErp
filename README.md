@@ -1,3 +1,4 @@
+A simple crud system with MongoDB, Express.js, React.js, and Node.js with real-time features.
 
 1.Download project
 
