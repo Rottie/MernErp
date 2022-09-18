@@ -20,3 +20,6 @@ cd client && npm install
 5.run whole app on backend side
 
 npm run dev
+
+6.Test CRUD Features
+Crud features lies on "Employee List" icon (vertical bar)
