@@ -17,7 +17,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="top">
-        <span classname="logo">Adjudant </span>
+        <span className="logo">Adjudant </span>
       </div>
       <hr />
       <div className="center">
@@ -45,7 +45,7 @@ const Sidebar = () => {
             </li>
           </Link>
 
-          <Link to="/" style={{ textDecoration: "none" }}>
+          <Link to="/users" style={{ textDecoration: "none" }}>
             <li>
               <CreditCardIcon className="icon" />
 
@@ -63,7 +63,7 @@ const Sidebar = () => {
 
           <p className="title">Real time info</p>
 
-          <Link to="/" style={{ textDecoration: "none" }}>
+          <Link to="/users" style={{ textDecoration: "none" }}>
             <li>
               <InsertChartIcon className="icon" />
 
@@ -81,7 +81,7 @@ const Sidebar = () => {
 
           <p className="title">Services</p>
 
-          <Link to="/" style={{ textDecoration: "none" }}>
+          <Link to="/users" style={{ textDecoration: "none" }}>
             <li>
               <SettingsSystemDaydreamOutlinedIcon className="icon" />
 
@@ -97,7 +97,7 @@ const Sidebar = () => {
             </li>
           </Link>
 
-          <Link to="/" style={{ textDecoration: "none" }}>
+          <Link to="/users" style={{ textDecoration: "none" }}>
             <li>
               <SettingsApplicationsIcon className="icon" />
 
@@ -115,7 +115,7 @@ const Sidebar = () => {
             </li>
           </Link>
 
-          <Link to="/" style={{ textDecoration: "none" }}>
+          <Link to="/users" style={{ textDecoration: "none" }}>
             <li>
               <ExitToAppIcon className="icon" />
 
@@ -125,8 +125,8 @@ const Sidebar = () => {
         </ul>
       </div>
       <div className="bottom">
-        <div class="colorOption"></div>
-        <div class="colorOption"></div>
+        <div className="colorOption"></div>
+        <div className="colorOption"></div>
       </div>
     </div>
   );

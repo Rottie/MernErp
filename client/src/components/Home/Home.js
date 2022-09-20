@@ -6,15 +6,15 @@ const Home = () => {
   return (
     <div className="home">
       <Sidebar />
-      <div class="homeContainer">
+      <div className="homeContainer">
         <Navbar />
-
-        
-            <img
+        <img
               src="https://blog.shift4shop.com/hs-fs/hubfs/coming%20soon.png?width=900&name=coming%20soon.png"
               alt=""
               className="unrelease"
             />
+      
+           
           </div>
        
     </div>

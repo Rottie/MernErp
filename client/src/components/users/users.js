@@ -9,6 +9,7 @@ import Edit from "./Edit/Edit";
 import Sidebar from "../sidebar/Sidebar";
 import Navbar from "../navbar/Navbar";
 
+
 class users extends Component {
   constructor() {
     super();
@@ -79,10 +80,10 @@ class users extends Component {
     return (
       <div className="list">
         <Sidebar />
-        <div class="userContainer">
+        <div className="userContainer">
           <Navbar />
 
-          <div class="user">
+          <div className="user">
             <Edit
               headerTitle="Add User"
               buttonTriggerTitle="Add New"

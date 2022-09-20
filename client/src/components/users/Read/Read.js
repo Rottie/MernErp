@@ -25,6 +25,7 @@ class Read extends Component {
             server={this.props.server}
             socket={this.props.socket}
           />
+     
           <Delete
             headerTitle="Delete User"
             buttonTriggerTitle="Delete"

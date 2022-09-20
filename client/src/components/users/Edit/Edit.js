@@ -28,6 +28,7 @@ class Edit extends Component {
             socket={this.props.socket}
           />
         </Modal.Content>
+        
       </Modal>
     );
   }
