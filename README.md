@@ -22,4 +22,6 @@ cd client && npm install
 npm run dev
 
 6.Test CRUD Features
-Crud features lies on "Employee List" icon (vertical bar)
+Crud only build in default route.
+
+Another new features will keep update after done testing phase.
