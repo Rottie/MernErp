@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "dev":"nodemon server",
+    "dev": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,6 +27,7 @@
     "mongoose": "^6.6.0",
     "mongoose-unique-validator": "3.1.0",
     "mongoose-validator": "2.1.0",
+    "nodemon": "^2.0.22",
     "socket.io": "^4.5.2",
     "string-capitalize-name": "1.0.3"
   }

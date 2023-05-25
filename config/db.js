@@ -1,9 +1,9 @@
 const mongoose = require("mongoose");
 
 const URI =
-  "mongodb+srv://root:hLcTQpkJUchS3EAa@cluster0.lizib.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
-
-//acc:root pwd:hLcTQpkJUchS3EAa
+ // "mongodb+srv://root:0FB1mN2iGeUHrduP@cluster0.lizib.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+"mongodb+srv://root:0FB1mN2iGeUHrduP@cluster0.svcvryl.mongodb.net/?retryWrites=true&w=majority";
+//acc:root pwd:0FB1mN2iGeUHrduP
 
 mongoose.connect(URI, {
   useNewUrlParser: true,
