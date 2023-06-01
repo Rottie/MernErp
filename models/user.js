@@ -30,6 +30,9 @@ const genderValidator = [
   // TODO: Make some validations here...
 ];
 
+
+
+
 // Define the database model
 const UserSchema = new mongoose.Schema({
   name: {
