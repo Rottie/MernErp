@@ -66,3 +66,4 @@ io.on("connection", (socket) => {
     io.emit("visitor exits", online);
   });
 });
+module.exports = app;
